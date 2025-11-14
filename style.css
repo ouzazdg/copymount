@@ -1,0 +1,274 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline-style: none;
+    }
+    
+    html {
+        font-size: 16px;
+        font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    }
+    
+    h2,
+    h3,
+    p {
+        margin-bottom: 15px;
+    }
+    
+    p {
+        line-height: 1.5;
+    }
+    
+    header.mainHead {
+        margin-bottom: 60px;
+    }
+    
+    header.mainHead h2 {
+        font-size: 2.5rem;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    header.mainHead h5 {
+        font-size: 0.9rem;
+        text-align: center;
+        color: #fff;
+        font-weight: 400;
+    }
+    
+    .container {
+        width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    body>header {
+        width: 100%;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5) url("../images/Contact-bg.jpg") no-repeat center center/cover;
+        background-blend-mode: overlay;
+    }
+    
+    body>header div.container {
+        top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    body>header nav {
+        display: flex;
+    }
+    
+    body>header div .nav a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 15px;
+    }
+    
+    body>header div.nav a:hover {
+        background-color: #f9b700;
+    }
+    
+    body>header div.container h2 {
+        margin-left: 15%;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        display: inline;
+    }
+    
+    body>header .container span {
+        color: orange;
+    }
+    
+    #sec-1 {
+        background: rgba(0, 0, 0, 0.3) url("../Images/banner-bg.jpg") no-repeat center center/cover;
+        background-blend-mode: overlay;
+        color: #fff;
+        padding: 100px 0 40px;
+        min-height: 100vh;
+    }
+    
+    #sec-1 div.container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #sec-1 aside {
+        flex-basis: 57%;
+    }
+    
+    #sec-1 aside h3 {
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+    
+    #sec-1 aside h2 {
+        color: orange;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    
+    #sec-1 aside p {
+        text-align: justify;
+        margin-bottom: 25px;
+    }
+    
+    #sec-1 aside button {
+        text-align: center;
+    }
+    
+    #sec-1 aside button a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #sec-1 img {
+        width: 100%;
+        border-style: none;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 150px;
+        flex-basis: 80%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    #sec-3 {
+        padding: 60px 0px;
+        align-content: center;
+        text-align: center;
+    }
+    
+    #sec-3 .mainHead hr {
+        border-color: rgb(255, 128, 0);
+        margin-top: 20px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #sec-3 .mainHead h2,
+    h5 {
+        color: #000;
+    }
+    
+    #sec-3 div.container {
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #sec-3 div.container img {
+        width: 53%;
+    }
+    
+    #sec-3 div.container article {
+        width: 42%;
+        text-align: center;
+    }
+    
+    #sec-3 .mainHead {
+        margin-bottom: 20px;
+    }
+    
+    #sec-3 .mainHead * {
+        text-align: center;
+        color: #000;
+        font-weight: bold;
+    }
+    
+    #sec-3 p {
+        text-align: justify;
+    }
+    
+    #sec-5 {
+        background: rgba(0, 0, 0, 0.70) url("../Images/Services-bg.jpg") no-repeat center center/cover;
+        padding: 100px 0 40px;
+    }
+    
+    #sec-5 hr {
+        border-color: rgb(255, 128, 0);
+        margin-top: 30px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #sec-5 header.container {
+        text-align: center;
+    }
+    
+    #sec-5 header.container * {
+        color: #fff;
+    }
+    
+    #sec-5 header.container a {
+        border: thin solid #fcb501;
+        color: #fcb501;
+        margin: 40px 0;
+    }
+    
+    #sec-6 {
+        padding: 40px 0;
+        background: rgba(0, 0, 0, 0.70) url("../Images/Services-bg.jpg") no-repeat center center/cover;
+    }
+    
+    #sec-6 div.container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #sec-6 div.container figure {
+        width: 24%;
+        border: thin dashed #ccc;
+        padding: 3px;
+        border-radius: 3px;
+    }
+    
+    #sec-6 div.container figure>img {
+        width: 100%;
+        border-radius: 3px;
+    }
+    
+    #sec-6 hr {
+        border-color: rgb(255, 128, 0);
+        margin-top: 20px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #sec-6 h2,
+    h5 {
+        color: #ccc;
+    }
+
+
+
+
+    @media (min-width: 576px) and (max-width: 767.98px){
+       #sec-1 div.container{
+        flex-wrap: wrap;
+        gap:10px
+       } 
+       #sec-1 img {
+        width: 100%;
+        border-style: none;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        flex-basis: 30%;
+        padding: 10px;
+        display: inline;
+        flex-wrap: wrap;
+        
+    }
+    }
